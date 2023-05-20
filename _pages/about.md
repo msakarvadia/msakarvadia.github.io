@@ -21,18 +21,19 @@ social: true  # includes social icons at the bottom of the page
 Hello! I am a first-year Department of Energy [Computational Science Graduate Fellow](https://www.krellinst.org/csgf/) and a Computer Science Ph.D. student at the [University of Chicago](https://cs.uchicago.edu/). I am a member of [Globus Labs](https://labs.globus.org/) where I am co-advised by [Ian Foster](https://cs.uchicago.edu/people/ian-foster/) and [Kyle Chard](https://kylechard.com/). I completed my Bachelors in Computer Science and Mathematics with a minor in Environmental Science at the [University of North Carolina, Chapel Hill](https://cs.unc.edu/) and previously interned at [Argonne National Laboratory](https://www.anl.gov/).
 
 Currently, I am very interested in the emerging field of [mechanistic interpretability](https://transformer-circuits.pub/2022/mech-interp-essay/index.html). Mechanistic Interpretability research aims to systematically reverse engineer neural networks to interpret their weights. Specifically, I love to investigate how neural networks are able to do things like:
-*  Factual recall
-*  Multi-hop and common sense reasoning
+* Factual recall
+* Multi-hop and common sense reasoning
 * Question answering
 * Knowledge retrieval
 * Catastrophic forgetting
+* In-context learning
 * Anomalous behavior
 * (and much more!)
 
-By understanding how neural networks implement these algorithms (above) in their weights, I hope to develop interventions that humans can apply to better align AI systems with human goals. Some examples of this are:
-* Editing learned concepts/associations
-* Correcting incorrect facts
-* Obscuring memorized private information
+By understanding how neural networks implement these algorithms (above) in their weights, I hope to develop interventions to better align AI systems with human goals. Some examples of this are:
+* Editing/correcting learned concepts/associations
+* Localizing/mitigating bias
+* Obscuring/unlearning sentastive information
 * De-parameterizing over-parameterized models
 * Patching ML vulnerabilities (e.g. backdoors)
 * Developing more efficient/targeted learning strategies
