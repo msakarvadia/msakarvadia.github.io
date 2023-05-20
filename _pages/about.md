@@ -33,7 +33,7 @@ Currently, I am very interested in the emerging field of [mechanistic interpreta
 By understanding how neural networks implement these algorithms (above) in their weights, I hope to develop interventions to better align AI systems with human goals. Some examples of this are:
 * Editing/correcting learned concepts/associations
 * Localizing/mitigating bias
-* Obscuring/unlearning sentastive information
+* Obscuring/unlearning sensetive information
 * De-parameterizing over-parameterized models
 * Patching ML vulnerabilities (e.g. backdoors)
 * Developing more efficient/targeted learning strategies
