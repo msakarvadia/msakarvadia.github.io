@@ -2,7 +2,7 @@
 layout: page
 permalink: /news/
 title: news
-description: Full news ordered in reverse chronological order.
+description: 
 years: [2022, 2021] # [1967, 1956, 1950, 1935, 1905]
 nav: true
 nav_order: 1
