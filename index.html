@@ -63,6 +63,7 @@
           <!-- Social Icons -->
           <div class="navbar-brand social">
             <a href="mailto:%73%61%6B%61%72%76%61%64%69%61@%75%63%68%69%63%61%67%6F.%65%64%75" title="email"><i class="fas fa-envelope"></i></a>
+            <a href="https://scholar.google.com/citations?user=MTZehsUAAAAJ" title="Google Scholar" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i></a>
             <a href="https://github.com/msakarvadia" title="GitHub" rel="external nofollow noopener" target="_blank"><i class="fab fa-github"></i></a>
             <a href="https://twitter.com/Mansi__S" title="Twitter" rel="external nofollow noopener" target="_blank"><i class="fab fa-twitter"></i></a>
             
@@ -275,7 +276,7 @@ Put your address / P.O. box / other info right below your picture. You can also 
             <ol class="bibliography"><li>
 <!-- _layouts/bib.html -->
       <div class="row">
-        <div class="col-sm-2 abbr"><abbr class="badge">ML</abbr></div>
+        <div class="col-sm-2 abbr"><abbr class="badge">Preprint</abbr></div>
 
         <!-- Entry bib key -->
         <div id="sakarvadia2023memory" class="col-sm-8">
@@ -312,22 +313,26 @@ Put your address / P.O. box / other info right below your picture. You can also 
 
           <!-- Links/Buttons -->
           <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="http://arxiv.org/abs/2309.05605" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
             <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
-            <a href="https://arxiv.org/abs/2309.05605" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
           </div>
           
           <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-arxiv-id="2309.05605"></span>
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
               <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
           </div>
 
-          <!-- Hidden bibtex block -->
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Answering multi-hop reasoning questions requires retrieving and synthesizing information from diverse sources. Large Language Models (LLMs) struggle to perform such reasoning consistently. Here we propose an approach to pinpoint and rectify multi-hop reasoning failures through targeted memory injections on LLM attention heads. First, we analyze the per-layer activations of GPT-2 models in response to single and multi-hop prompts. We then propose a mechanism that allows users to inject pertinent prompt-specific information, which we refer to as "memories," at critical LLM locations during inference. By thus enabling the LLM to incorporate additional relevant information during inference, we enhance the quality of multi-hop prompt completions. We show empirically that a simple, efficient, and targeted memory injection into a key attention layer can often increase the probability of the desired next token in multi-hop tasks, by up to 424%.</p>
+          </div>
+<!-- Hidden bibtex block -->
           <div class="bibtex hidden">
             <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">sakarvadia2023memory</span><span class="p">,</span>
   <span class="na">title</span> <span class="p">=</span> <span class="s">{Memory Injections: Correcting Multi-Hop Reasoning Failures during Inference in Transformer-Based Language Models}</span><span class="p">,</span>
   <span class="na">author</span> <span class="p">=</span> <span class="s">{Sakarvadia, Mansi and Ajith, Aswathy and Khan, Arham and Grzenda, Daniel and Hudson, Nathaniel and Bauer, André and Chard, Kyle and Foster, Ian}</span><span class="p">,</span>
   <span class="na">year</span> <span class="p">=</span> <span class="s">{2023}</span><span class="p">,</span>
-  <span class="na">eprint</span> <span class="p">=</span> <span class="s">{2309.05605}</span><span class="p">,</span>
   <span class="na">archiveprefix</span> <span class="p">=</span> <span class="s">{arXiv}</span><span class="p">,</span>
   <span class="na">primaryclass</span> <span class="p">=</span> <span class="s">{cs.CL}</span><span class="p">,</span>
 <span class="p">}</span></code></pre></figure>
@@ -343,6 +348,7 @@ Put your address / P.O. box / other info right below your picture. You can also 
             <div class="social">
               <div class="contact-icons">
                 <a href="mailto:%73%61%6B%61%72%76%61%64%69%61@%75%63%68%69%63%61%67%6F.%65%64%75" title="email"><i class="fas fa-envelope"></i></a>
+            <a href="https://scholar.google.com/citations?user=MTZehsUAAAAJ" title="Google Scholar" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i></a>
             <a href="https://github.com/msakarvadia" title="GitHub" rel="external nofollow noopener" target="_blank"><i class="fab fa-github"></i></a>
             <a href="https://twitter.com/Mansi__S" title="Twitter" rel="external nofollow noopener" target="_blank"><i class="fab fa-twitter"></i></a>
             
@@ -365,8 +371,8 @@ Put your address / P.O. box / other info right below your picture. You can also 
     <!-- Footer -->    
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        © Copyright 2023 Mansi  Sakarvadia. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. #Photos from <a href="https://unsplash.com" target="_blank" rel="external nofollow noopener">Unsplash</a>.
-
+        © Copyright 2023 Mansi  Sakarvadia. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>.
+Last updated: September 13, 2023.
       </div>
     </footer>
 
