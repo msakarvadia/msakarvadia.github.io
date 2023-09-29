@@ -108,3 +108,16 @@
 	  abstract={Answering multi-hop reasoning questions requires retrieving and synthesizing information from diverse sources. Large Language Models (LLMs) struggle to perform such reasoning consistently. Here we propose an approach to pinpoint and rectify multi-hop reasoning failures through targeted memory injections on LLM attention heads. First, we analyze the per-layer activations of GPT-2 models in response to single and multi-hop prompts. We then propose a mechanism that allows users to inject pertinent prompt-specific information, which we refer to as "memories," at critical LLM locations during inference. By thus enabling the LLM to incorporate additional relevant information during inference, we enhance the quality of multi-hop prompt completions. We show empirically that a simple, efficient, and targeted memory injection into a key attention layer can often increase the probability of the desired next token in multi-hop tasks, by up to 424%.},
 	  selected={true}
 }
+
+@inproceedings{kamatar2023lazy,
+  bibtex_show={true},
+  abbr={e-Science},
+  title={Lazy Python Dependency Management in Large-Scale Systems},
+  author={Kamatar, Alok and Sakarvadia, Mansi and Hayot-Sasson, Valerie and Chard, Kyle and Foster, Ian},
+  booktitle={2023 IEEE 19th International Conference on e-Science (e-Science)},
+  pages={1--10},
+  year={2023},
+  organization={IEEE Computer Society},
+  abstract={Python has become the language of choice for managing many scientific applications. However, when distributing a Python application, it is necessary that all application dependencies be distributed and available in the target execution environment. A specific consequence is that Python workflows suffer from slow scale out due to the time required to import dependencies. We describe ProxyImports, a method to package and distribute Python dependencies in a lazy fashion while remaining transparent and easy to use. Using ProxyImports, Python packages are loaded only once (eg, by a workflow head node) and are transferred asynchronously to compute nodes. We evaluate our implementation on the Perlmutter and Theta supercomputers and in an HPC cloud-bursting scenario. Our experiments show that ProxyImports significantly reduces the average time to import large modules across an HPC system and demonstrate that this method can be used easily to distribute user-packages to cloud resources. We conclude that ProxyImports improves application runtime, reduces contention on metadata servers and facilitates runtime portability of Python applications.},
+  selected={false}
+}
