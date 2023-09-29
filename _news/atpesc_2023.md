@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Attened the Argonne Training Program on Extreme Scale Computing [(ATPESC)](https://extremecomputingtraining.anl.gov/).
+Participated the Argonne Training Program on Extreme Scale Computing [(ATPESC)](https://extremecomputingtraining.anl.gov/).
