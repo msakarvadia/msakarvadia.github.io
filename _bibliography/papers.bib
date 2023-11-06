@@ -134,3 +134,22 @@
   abstract={Python has become the language of choice for managing many scientific applications. However, when distributing a Python application, it is necessary that all application dependencies be distributed and available in the target execution environment. A specific consequence is that Python workflows suffer from slow scale out due to the time required to import dependencies. We describe ProxyImports, a method to package and distribute Python dependencies in a lazy fashion while remaining transparent and easy to use. Using ProxyImports, Python packages are loaded only once (eg, by a workflow head node) and are transferred asynchronously to compute nodes. We evaluate our implementation on the Perlmutter and Theta supercomputers and in an HPC cloud-bursting scenario. Our experiments show that ProxyImports significantly reduces the average time to import large modules across an HPC system and demonstrate that this method can be used easily to distribute user-packages to cloud resources. We conclude that ProxyImports improves application runtime, reduces contention on metadata servers and facilitates runtime portability of Python applications.},
   selected={false}
 }
+
+@inproceedings{Hudson2023trillion,
+  bibtex_show={true},
+  abbr={BDCAT},
+  title={Trillion Parameter AI Serving Infrastructure for Scientific
+Discovery: A Survey and Vision},
+  author={Hudson, Nathaniel and Pauloski, J. Gregory and Baughman, Matt and Kamatar, Alok and Sakarvadia, Mansi and Ward, Logan and Chard, Ryan and 
+	  		Bauer, Andre and Levental, Maksim and Wang, Wenyi and Engler, Will and Skelly, Owen Price and Blaszik, Ben and Stevens, Rick and 
+			Chard, Kyle and Foster, Ian},
+  year={2023},
+  booktitle={IEEE/ACM International Conference on Big Data Computing, Applications and Technologies (BDCAT2023)},
+  abstract={Deep learning methods are transforming research, enabling new techniques, and ultimately leading to new discoveries.
+    As the demand for more capable AI models continues to grow, we are now entering an era of Trillion Parameter Models (TPM), or models with more than a trillion parameters---such as 
+    Huawei's PanGu-$\Sigma$. We describe a vision for the ecosystem of TPM users and providers that caters to the specific needs of the scientific community.
+    We then outline the significant technical challenges and open problems in system design for serving TPMs to enable scientific research and discovery. Specifically, we describe the requirements of a comprehensive software stack and interfaces to support the diverse and flexible requirements of researchers.
+  },
+
+  selected={false}
+}
