@@ -154,13 +154,44 @@ Discovery: A Survey and Vision},
   selected={false}
 }
 
-@inproceedings{Sakarvadia2024MitigatingMI,
+
+@mastersthesis{Sakarvadia2024Interpreting,
+  bibtex_show={true},
+  abbr={M.S. Thesis},
+  title={Towards Interpreting Language Models: A Case Study in Multi-Hop Reasoning},
+  author={Sakarvdia, Mansi},
+  year={2024},
+  school={University of Chicago},
+  abstract={Answering multi-hop reasoning questions requires retrieving and synthesizing information
+from diverse sources. Language models (LMs) struggle to perform such reasoning consis-
+tently. We propose an approach to pinpoint and rectify multi-hop reasoning failures through
+targeted memory injections on LM attention heads. First, we analyze the per-layer activa-
+tions of GPT-2 models in response to single- and multi-hop prompts. We then propose a
+mechanism that allows users to inject relevant prompt-specific information, which we refer to
+as “memories,” at critical LM locations during inference. By thus enabling the LM to incor-
+porate additional relevant information during inference, we enhance the quality of multi-hop
+prompt completions. We empirically show that a simple, efficient, and targeted memory
+injection into a key attention layer often increases the probability of the desired next token
+in multi-hop tasks, by up to 424\%. We observe that small subsets of attention heads can
+significantly impact the model prediction during multi-hop reasoning. To more faithfully
+interpret these heads, we develop Attention Lens: an open source tool that translates the
+outputs of attention heads into vocabulary tokens via learned transformations called lenses.
+We demonstrate the use of lenses to reveal how a model arrives at its answer and use them
+to localize sources of model failures such as in the case of biased and malicious language
+generation.
+  },
+
+  selected={false}
+}
+
+@inproceedings{Sakarvadia2024Mitigating,
   bibtex_show={true},
   abbr={Preprint},
   title={Mitigating Memorization In Language Models},
   author={Mansi Sakarvadia and Aswathy Ajith and Arham Khan and Nathaniel Hudson and Caleb Geniesse and Kyle Chard and Yaoqing Yang and Ian Foster and Michael W. Mahoney},
   year={2024},
   url={https://arxiv.org/abs/2410.02159},
+  arxiv={2410.02159},
   abstract={Language models (LMs) can "memorize" information, i.e., encode training data in their weights in such a way that inference-time queries can lead to verbatim regurgitation of that data. This ability to extract training data can be problematic, for example, when data are private or sensitive. In this work, we investigate methods to mitigate memorization: three regularizer-based, three finetuning-based, and eleven machine unlearning-based methods, with five of the latter being new methods that we introduce. We also introduce TinyMem, a suite of small, computationally-efficient LMs for the rapid development and evaluation of memorization-mitigation methods. We demonstrate that the mitigation methods that we develop using TinyMem can successfully be applied to production-grade LMs, and we determine via experiment that: regularizer-based mitigation methods are slow and ineffective at curbing memorization; fine-tuning-based methods are effective at curbing memorization, but overly expensive, especially for retaining higher accuracies; and unlearning-based methods are faster and more effective, allowing for the precise localization and removal of memorized information from LM weights prior to inference. We show, in particular, that our proposed unlearning method BalancedSubnet outperforms other mitigation methods at removing memorized information while preserving performance on target tasks.},
-  selected={True},
+  selected={True}
 }
