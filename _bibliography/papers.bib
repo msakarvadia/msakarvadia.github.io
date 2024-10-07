@@ -83,18 +83,30 @@
   preview={wave-mechanics.gif}
 }
 ---------------------------- My publications below, references above --------------------------
-
-@Article{GlobalEACSF,
-  bibtex_show={true},
-  abbr={MICCAI},
-  title={Atypical Neonate Extra-axial CSF is Associated with Reduced Cognitive Development at Age 1 year (poster)},
-  author={Mansi Sakarvadia and Rui Li and SunHyung Kim and Veronica Murphy and Emil Cornea and Juan Carlos Prieto and Mark Shen and John Gilmore and Martin Styner},
-  year={2020},
-  journal={Perinatal Preterm and Pediatric Image Analysis workshop at the Medical Image Computing and Computer Assisted Interventions conference},
-  pdf={PIPPI_Poster_Abstract13.pdf},
-  selected={false},
-  abstract={We aim to assess if enlarged extra-axial cerebrospinal fluid (EA-CSF) volume at neonatal age is associated with a child’s performance on the Mullen Scales of Early Learning (MSEL) at 12 and 24 months of age. 3T MRI scans were acquired from 651 infants at neonate age (20.8+/-8.9 postnatal days). EA-CSF and global tissue volumes were computed via a new tool called AutoEACSF1. The MSEL was administered to these infants at 12 and 24 months, measuring ability in gross motor and four domains that comprise an overall cognitive composite score: fine motor, visual reception, receptive language, expressive language. General linear models including intracranial cavity volume, gestational age at birth, maternal education and sex as covariate were employed. The subgroup of infants whose EA-CSF volumes measured in the top 5th percentile (i.e., 2 SDs above the mean; n=33) displayed significant negative correlations between elevated EA-CSF at neonatal age and expressive language (p=0.001) and cognitive composite scores (p=0.016) at 12 months. However, at 24 months of age, these associations were no longer significant. No significant associations were found for subjects with EACSF volumes below the top 10th percentile. This study finds that atypically high levels of EA-CSF volume shortly after birth are associated with lower expressive language and overall cognitive ability at 12 months of age. These results suggest that there may be a pathological threshold of high EA-CSF volume that could serve as an early biomarker of a child’s reduced cognitive ability at 12 months.}
+@article{sakarvadia2024Mitigating,
+  	  bibtex_show={true},
+  	  abbr={Preprint},
+  	  title={Mitigating Memorization In Language Models},
+      author={Mansi Sakarvadia and Aswathy Ajith and Arham Khan and Nathaniel Hudson and Caleb Geniesse and Kyle Chard and Yaoqing Yang and Ian Foster and Michael W. Mahoney},
+      year={2024},
+      url={https://arxiv.org/abs/2410.02159},
+      arxiv={2410.02159},
+  	  abstract={Language models (LMs) can "memorize" information, i.e., encode training data in their weights in such a way that inference-time queries can lead to verbatim regurgitation of that data. This ability to extract training data can be problematic, for example, when data are private or sensitive. In this work, we investigate methods to mitigate memorization: three regularizer-based, three finetuning-based, and eleven machine unlearning-based methods, with five of the latter being new methods that we introduce. We also introduce TinyMem, a suite of small, computationally-efficient LMs for the rapid development and evaluation of memorization-mitigation methods. We demonstrate that the mitigation methods that we develop using TinyMem can successfully be applied to production-grade LMs, and we determine via experiment that: regularizer-based mitigation methods are slow and ineffective at curbing memorization; fine-tuning-based methods are effective at curbing memorization, but overly expensive, especially for retaining higher accuracies; and unlearning-based methods are faster and more effective, allowing for the precise localization and removal of memorized information from LM weights prior to inference. We show, in particular, that our proposed unlearning method BalancedSubnet outperforms other mitigation methods at removing memorized information while preserving performance on target tasks.},
+	  selected={true}
 }
+
+@mastersthesis{Sakarvadia2024Interpreting,
+  bibtex_show={true},
+  abbr={M.S. Thesis},
+  title={Towards Interpreting Language Models: A Case Study in Multi-Hop Reasoning},
+  author={Sakarvdia, Mansi},
+  year={2024},
+  school={University of Chicago},
+  pdf={Mansi_Masters_Dissertation.pdf},
+  abstract={Answering multi-hop reasoning questions requires retrieving and synthesizing information from diverse sources. Language models (LMs) struggle to perform such reasoning consistently. We propose an approach to pinpoint and rectify multi-hop reasoning failures through targeted memory injections on LM attention heads. First, we analyze the per-layer activations of GPT-2 models in response to single- and multi-hop prompts. We then propose a mechanism that allows users to inject relevant prompt-specific information, which we refer to as “memories,” at critical LM locations during inference. By thus enabling the LM to incorporate additional relevant information during inference, we enhance the quality of multi-hop prompt completions. We empirically show that a simple, efficient, and targeted memory injection into a key attention layer often increases the probability of the desired next token in multi-hop tasks, by up to 424\%. We observe that small subsets of attention heads can significantly impact the model prediction during multi-hop reasoning. To more faithfully interpret these heads, we develop Attention Lens: an open source tool that translates the outputs of attention heads into vocabulary tokens via learned transformations called lenses. We demonstrate the use of lenses to reveal how a model arrives at its answer and use them to localize sources of model failures such as in the case of biased and malicious language generation.},
+  selected={false}
+}
+
 
 @article{sakarvadia2023memory,
   	  bibtex_show={true},
@@ -122,19 +134,6 @@
 	  selected={False}
 }
 
-@inproceedings{kamatar2023lazy,
-  bibtex_show={true},
-  abbr={e-Science},
-  title={Lazy Python Dependency Management in Large-Scale Systems},
-  author={Kamatar, Alok and Sakarvadia, Mansi and Hayot-Sasson, Valerie and Chard, Kyle and Foster, Ian},
-  booktitle={2023 IEEE 19th International Conference on e-Science (e-Science)},
-  pages={1--10},
-  year={2023},
-  organization={IEEE Computer Society},
-  abstract={Python has become the language of choice for managing many scientific applications. However, when distributing a Python application, it is necessary that all application dependencies be distributed and available in the target execution environment. A specific consequence is that Python workflows suffer from slow scale out due to the time required to import dependencies. We describe ProxyImports, a method to package and distribute Python dependencies in a lazy fashion while remaining transparent and easy to use. Using ProxyImports, Python packages are loaded only once (eg, by a workflow head node) and are transferred asynchronously to compute nodes. We evaluate our implementation on the Perlmutter and Theta supercomputers and in an HPC cloud-bursting scenario. Our experiments show that ProxyImports significantly reduces the average time to import large modules across an HPC system and demonstrate that this method can be used easily to distribute user-packages to cloud resources. We conclude that ProxyImports improves application runtime, reduces contention on metadata servers and facilitates runtime portability of Python applications.},
-  selected={false}
-}
-
 @inproceedings{Hudson2023trillion,
   bibtex_show={true},
   abbr={BDCAT},
@@ -153,27 +152,27 @@ Discovery: A Survey and Vision},
   selected={false}
 }
 
-
-@mastersthesis{Sakarvadia2024Interpreting,
+@inproceedings{kamatar2023lazy,
   bibtex_show={true},
-  abbr={M.S. Thesis},
-  title={Towards Interpreting Language Models: A Case Study in Multi-Hop Reasoning},
-  author={Sakarvdia, Mansi},
+  abbr={e-Science},
+  title={Lazy Python Dependency Management in Large-Scale Systems},
+  author={Kamatar, Alok and Sakarvadia, Mansi and Hayot-Sasson, Valerie and Chard, Kyle and Foster, Ian},
+  booktitle={2023 IEEE 19th International Conference on e-Science (e-Science)},
+  pages={1--10},
   year={2023},
-  school={University of Chicago},
-  pdf={Mansi_Masters_Dissertation.pdf},
-  abstract={Answering multi-hop reasoning questions requires retrieving and synthesizing information from diverse sources. Language models (LMs) struggle to perform such reasoning consistently. We propose an approach to pinpoint and rectify multi-hop reasoning failures through targeted memory injections on LM attention heads. First, we analyze the per-layer activations of GPT-2 models in response to single- and multi-hop prompts. We then propose a mechanism that allows users to inject relevant prompt-specific information, which we refer to as “memories,” at critical LM locations during inference. By thus enabling the LM to incorporate additional relevant information during inference, we enhance the quality of multi-hop prompt completions. We empirically show that a simple, efficient, and targeted memory injection into a key attention layer often increases the probability of the desired next token in multi-hop tasks, by up to 424\%. We observe that small subsets of attention heads can significantly impact the model prediction during multi-hop reasoning. To more faithfully interpret these heads, we develop Attention Lens: an open source tool that translates the outputs of attention heads into vocabulary tokens via learned transformations called lenses. We demonstrate the use of lenses to reveal how a model arrives at its answer and use them to localize sources of model failures such as in the case of biased and malicious language generation.},
+  organization={IEEE Computer Society},
+  abstract={Python has become the language of choice for managing many scientific applications. However, when distributing a Python application, it is necessary that all application dependencies be distributed and available in the target execution environment. A specific consequence is that Python workflows suffer from slow scale out due to the time required to import dependencies. We describe ProxyImports, a method to package and distribute Python dependencies in a lazy fashion while remaining transparent and easy to use. Using ProxyImports, Python packages are loaded only once (eg, by a workflow head node) and are transferred asynchronously to compute nodes. We evaluate our implementation on the Perlmutter and Theta supercomputers and in an HPC cloud-bursting scenario. Our experiments show that ProxyImports significantly reduces the average time to import large modules across an HPC system and demonstrate that this method can be used easily to distribute user-packages to cloud resources. We conclude that ProxyImports improves application runtime, reduces contention on metadata servers and facilitates runtime portability of Python applications.},
   selected={false}
 }
 
-@article{sakarvadia2024Mitigating,
-  	  bibtex_show={true},
-  	  abbr={Preprint},
-  	  title={Mitigating Memorization In Language Models},
-      author={Mansi Sakarvadia and Aswathy Ajith and Arham Khan and Nathaniel Hudson and Caleb Geniesse and Kyle Chard and Yaoqing Yang and Ian Foster and Michael W. Mahoney},
-      year={2024},
-      url={https://arxiv.org/abs/2410.02159},
-      arxiv={2410.02159},
-  	  abstract={Language models (LMs) can "memorize" information, i.e., encode training data in their weights in such a way that inference-time queries can lead to verbatim regurgitation of that data. This ability to extract training data can be problematic, for example, when data are private or sensitive. In this work, we investigate methods to mitigate memorization: three regularizer-based, three finetuning-based, and eleven machine unlearning-based methods, with five of the latter being new methods that we introduce. We also introduce TinyMem, a suite of small, computationally-efficient LMs for the rapid development and evaluation of memorization-mitigation methods. We demonstrate that the mitigation methods that we develop using TinyMem can successfully be applied to production-grade LMs, and we determine via experiment that: regularizer-based mitigation methods are slow and ineffective at curbing memorization; fine-tuning-based methods are effective at curbing memorization, but overly expensive, especially for retaining higher accuracies; and unlearning-based methods are faster and more effective, allowing for the precise localization and removal of memorized information from LM weights prior to inference. We show, in particular, that our proposed unlearning method BalancedSubnet outperforms other mitigation methods at removing memorized information while preserving performance on target tasks.},
-	  selected={True}
+@Article{GlobalEACSF,
+  bibtex_show={true},
+  abbr={MICCAI},
+  title={Atypical Neonate Extra-axial CSF is Associated with Reduced Cognitive Development at Age 1 year (poster)},
+  author={Mansi Sakarvadia and Rui Li and SunHyung Kim and Veronica Murphy and Emil Cornea and Juan Carlos Prieto and Mark Shen and John Gilmore and Martin Styner},
+  year={2020},
+  journal={Perinatal Preterm and Pediatric Image Analysis workshop at the Medical Image Computing and Computer Assisted Interventions conference},
+  pdf={PIPPI_Poster_Abstract13.pdf},
+  selected={false},
+  abstract={We aim to assess if enlarged extra-axial cerebrospinal fluid (EA-CSF) volume at neonatal age is associated with a child’s performance on the Mullen Scales of Early Learning (MSEL) at 12 and 24 months of age. 3T MRI scans were acquired from 651 infants at neonate age (20.8+/-8.9 postnatal days). EA-CSF and global tissue volumes were computed via a new tool called AutoEACSF1. The MSEL was administered to these infants at 12 and 24 months, measuring ability in gross motor and four domains that comprise an overall cognitive composite score: fine motor, visual reception, receptive language, expressive language. General linear models including intracranial cavity volume, gestational age at birth, maternal education and sex as covariate were employed. The subgroup of infants whose EA-CSF volumes measured in the top 5th percentile (i.e., 2 SDs above the mean; n=33) displayed significant negative correlations between elevated EA-CSF at neonatal age and expressive language (p=0.001) and cognitive composite scores (p=0.016) at 12 months. However, at 24 months of age, these associations were no longer significant. No significant associations were found for subjects with EACSF volumes below the top 10th percentile. This study finds that atypically high levels of EA-CSF volume shortly after birth are associated with lower expressive language and overall cognitive ability at 12 months of age. These results suggest that there may be a pathological threshold of high EA-CSF volume that could serve as an early biomarker of a child’s reduced cognitive ability at 12 months.}
 }
