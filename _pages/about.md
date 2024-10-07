@@ -8,10 +8,6 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  address: >
-    <p>399 John Crerar Library</p>
-    <p>5730 S Ellis Ave</p>
-    <p>Chicago, IL 60637</p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
