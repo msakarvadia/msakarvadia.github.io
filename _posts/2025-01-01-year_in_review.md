@@ -8,7 +8,7 @@ categories: #sample-posts
 related_posts: false
 ---
 
-As we approach the end of 2024, I want to reflect on my academic journey over the course of the year. I am around 2.5 years into my computer science PhD, which means I am either at the halfway point or close to it (in my department PhDs typically take ~5-7 years). My intended audience for this blog are fellow academics, anyone contemplating doing a PhD, and my Mom (i.e., folks still learning what doing a PhD may entail). 
+As we approach the end of 2024, I want to reflect on my academic journey over the course of the year. I am around 2.5 years into my computer science PhD, which means I am either at the halfway point or close to it (in my department PhDs typically take ~5-7 years). My intended audience for this blog are fellow academics, anyone contemplating doing a PhD, and my mom (i.e., folks still learning what doing a PhD may entail). 
 My goals in this post are:
 1. Describe the milestones I hit this year and the steps I followed to achieve them.
 2. Reflect on how my ability to process information and make decisions has evolved this year in the context of my day-to-day research workflow.
