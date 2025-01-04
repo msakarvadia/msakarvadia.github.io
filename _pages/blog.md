@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /blog/
 title: blog
+permalink: blog
 description: 
 nav: true
 nav_order: 4
@@ -28,7 +28,11 @@ nav_order: 4
         <tr>
           <th scope="row">{{ post.date | date: "%b %-d, %Y" }}</th>
           <td>
-              <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+              {% if post.external_link %}
+                <a href="{{ post.external_link }}" target="_blank">{{ post.title }}</a>
+              {% else %}
+                <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+              {% endif %}
           </td>
         </tr>
       {% endfor %}
