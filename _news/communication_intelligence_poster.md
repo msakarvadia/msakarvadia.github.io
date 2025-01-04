@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Presented my poster "Mitigating Memorization in Language Models" at the University of Chicago Communication & Intelligene Symposium. 
+Presented my poster [Mitigating Memorization in Language Models](https://mansisak.com/memorization/) at the University of Chicago [Communication & Intelligene Symposium](../assets/img/communication_institute_poster.jpg). 
