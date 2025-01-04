@@ -56,7 +56,7 @@ After my internship ended, I continued polishing up my internship paper at my ho
 
 At first, I tried to accommodate everyone's ideas, but that led to a really non-cohesive second draft. I began to realize that I might need to make some executive decisions about high-level directioning on my own. I spent a lot of time worrying that I was going to burn bridges with one or more of the advisors based on whose edits I chose to keep and whose edits I discarded. Once again, decision paralysis struck.
 
-Eventually, one of my post-docs told me to trust my gut and reject edits that I thought didn’t fit my vision. This was spot-on advice; as soon as I started critically evaluating feedback, my co-authors and advisors were able to tailor their advice to the organization/tone of writing I had set. Looking back, I realized that research really is a collaborative process and the right team will help you fulfill your vision rather than bog you down.
+Eventually, one of my post-docs told me to trust my gut and reject edits that I thought didn’t fit my vision. This was spot-on advice; as soon as I started critically evaluating feedback, my co-authors and advisors were able to tailor their advice to the organization/tone of writing I had set [[internship project]](https://arxiv.org/abs/2410.02159). Looking back, I realized that research really is a collaborative process and the right team will help you fulfill your vision rather than bog you down.
 
 ## Mentoring an Undergrad Student
 
@@ -79,10 +79,12 @@ I have loved being a PhD student. Working in a fast-moving field has been both r
 ### References
 [[Duede et al., 2024]](https://arxiv.org/pdf/2405.15828) Duede, Eamon, et al. "Oil & water? diffusion of ai within and across scientific fields." arXiv preprint arXiv:2405.15828 (2024).
 
-[[workshop paper]](https://arxiv.org/pdf/2309.05605) Mansi Sakarvadia, et al. “Memory Injections: Correcting Multi-Hop Reasoning Failures during Inference in Transformer-Based Language Models.” The 6th BlackboxNLP Workshop.
+[[workshop paper]](https://arxiv.org/pdf/2309.05605) Sakarvadia, Mansi, et al. “Memory Injections: Correcting Multi-Hop Reasoning Failures during Inference in Transformer-Based Language Models.” The 6th BlackboxNLP Workshop.
 
 [[qualifier thesis]](https://arxiv.org/pdf/2411.05037) Sakarvadia, Mansi. Towards Interpreting Language Models: A Case Study in Multi-Hop Reasoning. 2024. University of Chicago, Master's Thesis.
 
 [[video of rehearsal]](https://www.youtube.com/watch?v=4EE9DIToERo) “Interpreting Language Models: Correcting Multi-hop Reasoning Failures During Inference.” YouTube, uploaded by Mansi Sakarvadia, 7 Apr. 2024, https://www.youtube.com/watch?v=4EE9DIToERo.
+
+[[internship project]](https://arxiv.org/abs/2410.02159) Sakarvadia, Mansi, et al. "Mitigating Memorization In Language Models." arXiv preprint arXiv:2410.02159 (2024).
 
 [[extended abstract]](https://openreview.net/pdf?id=UznBr4mxVr) Pettyjohn, Jordan Nikolai, et al. "Mind Your Manners: Detoxifying Language Models via Attention Head Intervention." The 7th BlackboxNLP Workshop.
