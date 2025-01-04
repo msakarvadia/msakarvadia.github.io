@@ -43,9 +43,3 @@ nav_order: 4
 </div>
 
 <div class="post">
-
-
-**January 1, 2025**  &nbsp; [A Year In Review: C.S. PhD Student Edition](2025-01-01-year_in_review.html)
-
-**October 3, 2024**  &nbsp; [Mitigating Memorization in Language Models](https://mansisak.com/memorization/)
-
