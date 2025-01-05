@@ -44,7 +44,7 @@ My thesis writing and final set of experiments were more self-led than when I wa
 The actual oral defense for the qualification exam came in at 34 minutes. When I rehearsed it prior to the defense, it was 40 minutes [[video of rehearsal]](https://www.youtube.com/watch?v=4EE9DIToERo). So either I rushed or I forgot to say 6 minutes worth of content. Regardless, I passed my qualifying exam (and got my master’s degree)! 
 
 ## Summer Internship
-The next big milestone of the year was spending summer 2025 in Berkeley working on my next research project. I did this as a part of an internship at Lawrence Berkeley National Labs; completing at least one internship was a requirement of my fellowship. 
+The next big milestone of the year was spending summer 2024 in Berkeley working on my next research project. I did this as a part of an internship at Lawrence Berkeley National Labs; completing at least one internship was a requirement of my fellowship. 
 
 Like my qualification exam project, I had full autonomy over designing my internship project. I had the help of two supportive internship advisors (Michael Mohoney and Yaoqing Yang). I had decided I wanted to work on a project at the intersection of privacy and language modeling. Unfortunately, when I arrived in Berkeley, I very quickly realized that the specific idea I had in mind had actually already been done by a different group. I was left feeling as though I had failed the very simple task of scoping the project before I had even started. I tried brainstorming related problems, but nothing really spoke to me.
 
