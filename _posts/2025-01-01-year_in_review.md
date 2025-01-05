@@ -2,7 +2,7 @@
 layout: post
 title: "A Year In Review: C.S. PhD Student Edition" 
 date: 2025-01-01 11:12:00-0400
-description: an example of a blog post with some math
+description: "A recap of my academic journey in 2024."
 tags: #formatting math
 categories: #sample-posts
 related_posts: false
