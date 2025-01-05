@@ -74,7 +74,7 @@ The next morning was a mad dash with me on the ground helping my student prep hi
 
 I have loved being a PhD student. Working in a fast-moving field has been both rewarding and challenging as I am constantly sorting through information and trying to decide the best course of action. Working with large teams has been exciting because I learn so much, but reconciling tons of different opinions was daunting at first. Mentoring students has been super fulfilling but came with the challenge of anticipating my student’s needs and advising in a way that is constructive and not overwhelming. I learned a lot this year, and most importantly I grew more confident in both my decision making and problem solving abilities in the face of limitless information and possibilities.
 
-*Thanks to Jay Sakarvadia, Sahil Sethi, and Jordan Pettyjohn, who provided feedback on this blog post.*
+*Thanks to Jay Sakarvadia, Sahil Sethi, Jordan Pettyjohn and Valerie Hayot-Sasson, who provided feedback on this blog post.*
 
 ### References
 [[Duede et al., 2024]](https://arxiv.org/pdf/2405.15828) Duede, Eamon, et al. "Oil & water? diffusion of ai within and across scientific fields." arXiv preprint arXiv:2405.15828 (2024).
