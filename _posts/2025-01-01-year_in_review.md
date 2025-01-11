@@ -29,7 +29,7 @@ My goals in this post are:
 
 ## Qualifier Exams
 
-The qualification phase of the PhD in my department lasts roughly for the first 2-3 years and consists of both completing course requirements and conducting & presenting original research in the form of a mini thesis defense. My department also requires students to have a master’s degree to advance past the qualifier exam, so students who do not begin their PhD with a master’s must take additional courses to fulfill that requirement. This was the case for me, so I took extra courses and was concurrently awarded my master’s degree when I passed my qualifying exam.
+The qualification phase of the PhD in my department lasts roughly for the first 2-3 years and consists of both completing course requirements and conducting and presenting original research in the form of a mini thesis defense. My department also requires students to have a master’s degree to advance past the qualifier exam, so students who do not begin their PhD with a master’s must take additional courses to fulfill that requirement. This was the case for me, so I took extra courses and was concurrently awarded my master’s degree when I passed my qualifying exam.
 
 The hardest part of the qualification phase of my PhD was selecting the research topic for my qualification thesis. My advisors were super supportive and flexible with me choosing to research anything I was interested in. The autonomy awarded to me is what attracted me to this group as I loved the idea of being my own boss. However, I quickly became overwhelmed when I started surveying the literature and realized how fast the area was moving. There were so many possible research topics…perhaps too many.
 
