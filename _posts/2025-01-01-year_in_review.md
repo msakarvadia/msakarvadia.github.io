@@ -41,7 +41,7 @@ In January 2024, I set out to expand my workshop paper into a full qualification
 
 My thesis writing and final set of experiments were more self-led than when I was working on the initial workshop paper (i.e., my advisors and postdocs did not give as much feedback). This led to self-doubt as I was not always sure if I was asking the right questions or if my arguments were sharp enough. Once again, I was facing decision paralysis. While it was important to make thoughtful choices, it was equally important to trust myself and just get started. What I was failing to remember is that a PhD is about building a body of one's work, and hyper fixating on trivial aspects of any individual project can be counterproductive. Individual projects need to have clear goals, be founded on reasonable assumptions, and make evidence-based arguments. Once I remembered that, I was golden.
 
-The actual oral defense for the qualification exam came in at 34 minutes. When I rehearsed it prior to the defense, it was 40 minutes [[video of rehearsal]](https://www.youtube.com/watch?v=4EE9DIToERo). So either I rushed or I forgot to say 6 minutes worth of content. Regardless, I passed my qualifying exam (and got my master’s degree)! 
+The actual oral defense for the qualification exam went well! I passed (and got my master's degree) [[video of rehearsal]](https://www.youtube.com/watch?v=4EE9DIToERo). 
 
 ## Summer Internship
 The next big milestone of the year was spending summer 2024 in Berkeley working on my next research project. I did this as a part of an internship at Lawrence Berkeley National Labs; completing at least one internship was a requirement of my fellowship. 

@@ -15,9 +15,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hello! I am a third-year Department of Energy [Computational Science Graduate Fellow](https://www.krellinst.org/csgf/) and a Computer Science Ph.D. student at the [University of Chicago](https://cs.uchicago.edu/), where I am co-advised by [Ian Foster](https://cs.uchicago.edu/people/ian-foster/) and [Kyle Chard](https://kylechard.com/). 
+Hello! I am a Computer Science Ph.D. student at the [University of Chicago](https://cs.uchicago.edu/), where I am co-advised by [Ian Foster](https://cs.uchicago.edu/people/ian-foster/) and [Kyle Chard](https://kylechard.com/). 
 
-I develop machine learning interpretability methods. My research aims to systematically reverse engineer neural networks to interpret their weights. For example, much of my work focuses on localizing sources of model failure within weight-space and developing efficient methods to correct model behavior.
+I develop machine learning interpretability methods. My research aims to systematically reverse engineer neural networks to interpret their weights. For example, much of my work focuses on localizing sources of model failure within weight-space and developing efficient methods to correct model behavior. My work is supported by a Department of Energy [Computational Science Graduate Fellowship](https://www.krellinst.org/csgf/). 
 
 Prior to my Ph.D., I completed my Bachelors in Computer Science and Mathematics with a minor in Environmental Science at the [University of North Carolina, Chapel Hill](https://cs.unc.edu/).
 
