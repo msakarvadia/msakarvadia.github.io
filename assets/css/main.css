@@ -152,6 +152,9 @@ table th {
 table th {
   font-weight: bold;
 }
+table th {
+  white-space: nowrap;
+}
 
 a,
 table.table a {
