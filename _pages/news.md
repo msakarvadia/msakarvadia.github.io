@@ -1,9 +1,9 @@
 ---
 layout: page
-permalink: /news/
+permalink: news
 title: news
 description: 
-years: [2024, 2023, 2022, 2021] # [1967, 1956, 1950, 1935, 1905]
+years: [2025, 2024, 2023, 2022, 2021] # [1967, 1956, 1950, 1935, 1905]
 nav: true
 nav_order: 1
 ---
