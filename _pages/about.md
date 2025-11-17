@@ -17,9 +17,18 @@ social: true  # includes social icons at the bottom of the page
 
 Hello! I am a Computer Science Ph.D. student at the [University of Chicago](https://cs.uchicago.edu/), where I am co-advised by [Ian Foster](https://cs.uchicago.edu/people/ian-foster/) and [Kyle Chard](https://kylechard.com/). 
 
+I research and develop **adaptive**, **scalable**, and **fault-tolerant** methods for machine learning (ML). My research is motivated by the challenges of modern ML lifecycles, where models are being developed for and deployed in increasingly complex and dynamic computational ecosystems. These fast-evolving modeling landscapes require effective design, measurement, and management. 
+
+In the short-term, my work focuses on studying, preventing, and efficiently correcting failure modes within ML lifecycles. For example, I have developed methods to enable [fast adaption of LMs to mitigate unwanted behavior](https://arxiv.org/pdf/2410.02159), [fault-tolerant training over decentralized data](https://arxiv.org/pdf/2505.11760), and [scalable scientific modeling](https://arxiv.org/pdf/2510.06646). In the long-term, my goal is to enable **resilient machine learning**. 
+
+My work is supported by a Department of Energy [Computational Science Graduate Fellowship](https://www.krellinst.org/csgf/). Prior to my Ph.D., I completed my Bachelors in Computer Science and Mathematics at [UNC, Chapel Hill](https://cs.unc.edu/).
+
+<!--
 I develop machine learning interpretability methods. My research aims to systematically reverse engineer neural networks to interpret their weights. For example, much of my work focuses on localizing sources of model failure within weight-space and developing efficient methods to correct model behavior. My work is supported by a Department of Energy [Computational Science Graduate Fellowship](https://www.krellinst.org/csgf/). 
 
 Prior to my Ph.D., I completed my Bachelors in Computer Science and Mathematics with a minor in Environmental Science at the [University of North Carolina, Chapel Hill](https://cs.unc.edu/).
+
+-->
 
 <!--
 Hello! I am a third-year Department of Energy [Computational Science Graduate Fellow](https://www.krellinst.org/csgf/) and a Computer Science Ph.D. student at the [University of Chicago](https://cs.uchicago.edu/). I am a member of [Globus Labs](https://labs.globus.org/) where I am co-advised by [Ian Foster](https://cs.uchicago.edu/people/ian-foster/) and [Kyle Chard](https://kylechard.com/). I completed my Bachelors in Computer Science and Mathematics with a minor in Environmental Science at the [University of North Carolina, Chapel Hill](https://cs.unc.edu/) and previously interned at [Argonne National Laboratory](https://www.anl.gov/).
