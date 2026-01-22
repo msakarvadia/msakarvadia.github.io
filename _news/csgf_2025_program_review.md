@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Presented my poster "The False Promise of Super-Resolution of Machine-Learned Operators" at the [CSGF Program Review](https://www.krellinst.org/csgf/conf) in Washington, DC. 
+Presented my poster "The False Promise of Super-Resolution in Machine-Learned Operators" at the [CSGF Program Review](https://www.krellinst.org/csgf/conf) in Washington, DC. 
