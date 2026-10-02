@@ -83,6 +83,29 @@
   preview={wave-mechanics.gif}
 }
 ---------------------------- My publications below, references above --------------------------
+@article{sakarvadia2026initialization,
+  	  bibtex_show={true},
+  	  abbr={Preprint},
+	  title={Initialization Improves LLM-Driven Discovery},
+      author={Mansi Sakarvadia and Marco Ciccone and Colin Raffel},
+      year={2026},
+      url={https://arxiv.org/abs/2610.00707},
+      arxiv={2610.00707},
+	abstract={Large Language Models (LLMs) have been used for novel discovery of algorithms, theorems, drugs, and other tasks through the use of harnesses that prompt an LLM to iteratively optimize an objective. In this work, we study the relationship between the population of previous iterates and eventual discovery success. We generalize past work on harness design to develop a suite of 12 harnesses called 'Modular' and characterize their performance across 5 diverse discovery tasks, finding that discovery success is brittle and sensitive to harness design. We uncover mode collapse, characterized by a dramatic drop in the diversity of iterates, as a common failure mode. We find that popular state-of-the-art harnesses and diversity-inducing harness interventions, which aim to prolong this collapse, yield inconsistent gains. Our results instead uncover that the performance of early discoveries is predictive of eventual success. We therefore propose a universally applicable intervention that performs an initial stage of parallel exploration in order to initialize subsequent iterative optimization. Our method provides consistent gains across many harnesses and target applications, confirming the importance of initialization in LLM-driven discovery.},
+	  selected={true}
+}
+@article{pettyjohn2026interpreting,
+  	  bibtex_show={true},
+  	  abbr={Preprint},
+	  title={Interpreting Language Model Hidden States at Scale},
+      author={Jordan Pettyjohn and Mansi Sakarvadia and Nathaniel Hudson and Daniel KcKenzie and Kyle Chard and Ian Foster},
+      year={2026},
+      url={https://arxiv.org/abs/2608.10260},
+      arxiv={2608.10260},
+  	  abstract={Lens methods interpret large language models (LLMs) by mapping intermediate activations to the output vocabulary, revealing how next-token predictions develop through the network. Trained lenses remain expensive: affine-translator parameters grow quadratically with model width, while exact, full-vocabulary Kullback--Leibler (KL) training dominates memory. Consequently, prior trained lenses have been applied to models of at most 20B parameters and remain tied to particular component types. We present OmniLens, which applies a single lens family to any model-width activation, whether residual stream, attention, or MLP, and combines two independent scaling techniques. First, low-rank translators make per-lens parameter growth linear in model width and reduce trainable parameters by up to 98.4%. Second, Subset-KL materializes only selected vocabulary logits: its Top-k mode cuts peak training memory by up to 70%, while its importance-sampled variant retains unbiased stochastic gradients for the full KL. These savings enable a dense ensemble of 482 lenses for LLaMA-3.3-70B, providing 6x the coverage of a residual-stream design at the same depth. Model-wide coverage then reveals what single-component lenses cannot: the components where a behavior is most visible need not be those where intervention is most effective, and the most effective interventions lie outside the attention heads examined by prior lens studies. Across three case studies (prompt-injection detection, multi-hop memory injection, and toxicity localization), OmniLens reproduces key published results at substantially lower cost.},
+	  selected={false}
+}
+
 @article{sakarvadia2026false,
   	  bibtex_show={true},
   	  abbr={ICLR},
@@ -174,7 +197,7 @@
       note={Work accepted to BlackBoxNLP 2023.},
       arxiv={2309.05605},
 	  abstract={Answering multi-hop reasoning questions requires retrieving and synthesizing information from diverse sources. Large Language Models (LLMs) struggle to perform such reasoning consistently. Here we propose an approach to pinpoint and rectify multi-hop reasoning failures through targeted memory injections on LLM attention heads. First, we analyze the per-layer activations of GPT-2 models in response to single and multi-hop prompts. We then propose a mechanism that allows users to inject pertinent prompt-specific information, which we refer to as "memories," at critical LLM locations during inference. By thus enabling the LLM to incorporate additional relevant information during inference, we enhance the quality of multi-hop prompt completions. We show empirically that a simple, efficient, and targeted memory injection into a key attention layer can often increase the probability of the desired next token in multi-hop tasks, by up to 424%.},
-	  selected={true}
+	  selected={false}
 }
 
 @article{sakarvadia2023attention,
