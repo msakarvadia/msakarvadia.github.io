@@ -131,7 +131,7 @@
     
 
     <!-- Fallback to the original file -->
-    <img src="/assets/img/prof_pic.jpg" class="img-fluid z-depth-1 rounded" width="auto" height="auto" alt="prof_pic.jpg" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+    <img src="/assets/img/prof_pic.jpg" class="img-fluid z-depth-1 rounded" width="auto" height="auto" alt="prof_pic.jpg" onerror="this.onerror=null; this.closest('picture').querySelectorAll('source').forEach(function(s) { s.remove(); });">
 
   </picture>
 
@@ -489,7 +489,7 @@ Put your address / P.O. box / other info right below your picture. You can also 
     <footer class="fixed-bottom">
       <div class="container mt-0">
         © Copyright 2026 Mansi  Sakarvadia. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>.
-Last updated: October 02, 2026.
+Last updated: October 03, 2026.
       </div>
     </footer>
 
