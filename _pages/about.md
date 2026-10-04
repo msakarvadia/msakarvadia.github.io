@@ -21,7 +21,7 @@ I research and develop **adaptive**, **scalable**, and **fault-tolerant** method
 
 In the short-term, my work focuses on studying, preventing, and efficiently correcting failure modes within ML lifecycles. For example, I have developed methods to enable [fast adaption of LMs to mitigate unwanted behavior](https://arxiv.org/pdf/2410.02159), [fault-tolerant training over decentralized data](https://arxiv.org/pdf/2505.11760), and [scalable scientific modeling](https://arxiv.org/pdf/2510.06646). In the long-term, my goal is to enable **resilient machine learning**. 
 
-My work is supported by a Department of Energy [Computational Science Graduate Fellowship](https://www.krellinst.org/csgf/). Prior to my Ph.D., I completed my Bachelors in Computer Science and Mathematics at [UNC, Chapel Hill](https://cs.unc.edu/).
+My work has been supported by a Department of Energy [Computational Science Graduate Fellowship](https://www.krellinst.org/csgf/). Prior to my Ph.D., I completed my Bachelors in Computer Science and Math at [UNC, Chapel Hill](https://cs.unc.edu/).
 
 <!--
 I develop machine learning interpretability methods. My research aims to systematically reverse engineer neural networks to interpret their weights. For example, much of my work focuses on localizing sources of model failure within weight-space and developing efficient methods to correct model behavior. My work is supported by a Department of Energy [Computational Science Graduate Fellowship](https://www.krellinst.org/csgf/). 
