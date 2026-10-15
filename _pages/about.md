@@ -29,10 +29,11 @@ My work has been supported by a Department of Energy [Computational Science Grad
 
 <summary>How do Humans Build A.I.?</summary>
 
-My research group is conducting a study examining how humans make machine learning engineering decisions. We are looking for anyone who contributes to or makes decisions about machine learning models and their lifecycles to help us understand challenges, and opportunities in this field by filling out a 10 minute survey at this [link](https://uchicago.co1.qualtrics.com/jfe/form/SV_3CWGrpSwl7BBBPM).
+<p>My research group is conducting a study examining how humans make machine learning engineering decisions. <strong>We are looking for anyone who contributes to or makes decisions about machine learning models and their lifecycles to help us understand challenges, and opportunities in this field by filling out a 10 minute survey at this <a href="https://uchicago.co1.qualtrics.com/jfe/form/SV_3CWGrpSwl7BBBPM">link</a>.</strong></p>
 
-Study Title: Profiling Human Decision Making in the Machine Learning Engineering Lifecycle
-Study Number: IRB26-1162, Principle Investigators: Kyle Chard, Ian Foster
+<p>Study Title: Profiling Human Decision Making in the Machine Learning Engineering Lifecycle</p>
+
+<p>Study Number: IRB26-1162, Principle Investigators: Kyle Chard, Ian Foster</p>
 
 </details>
 
