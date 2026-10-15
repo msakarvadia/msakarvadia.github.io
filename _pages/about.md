@@ -16,7 +16,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 Hello! I am a Computer Science Ph.D. student at the [University of Chicago](https://cs.uchicago.edu/), where I am co-advised by [Ian Foster](https://cs.uchicago.edu/people/ian-foster/) and [Kyle Chard](https://kylechard.com/). 
-My research sits at the intersection of distributed systems, scientific computing, and machine learning.
+My research sits at the intersection of machine learning, distributed systems, and scientific computing.
 
 Much of my work is focused on understanding and mitigating failure modes of A.I. in modern computational (science) workflows. 
 For example, I have developed methods to [quickly mitigate unwanted behavior in LLMs](https://arxiv.org/pdf/2410.02159), [enable scalable scientific modeling](https://arxiv.org/pdf/2510.06646), and [efficiently improve LLM-Driven Discovery](https://arxiv.org/pdf/2610.00707).
