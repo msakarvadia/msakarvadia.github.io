@@ -159,7 +159,24 @@ This is a card from the IBM Blue Gene line of supercomputers that I was given in
 
 <p>Today, the chicken argument has won. All modern supercomputers are designed to be parallel machines. During my Ph.D., I have seen large scale computers come online, be decommissioned, and proposed for future planning. One of the most notable unveilings happened in 2023 when<a href="https://top500.org/news/frontier-remains-no-1-in-the-top500-but-aurora-with-intels-sapphire-rapids-chips-enters-with-a-half-scale-system-at-no-2/" target="_blank" rel="external nofollow noopener">Aurora</a><sup>4</sup> came online. Aurora debuted as the world’s second exascale computer, meaning that it could do a quintillion calculations per second. This meant that the world had gone from petascale (think IBM Blue Gene) to exascale in less than two decades…in other words, we can now do 1,000 trillion more computations per second than previous-generation supercomputers.</p>
 
-<h2 id="my-adventure-in-supercomputing">My Adventure in Supercomputing</h2>
+<h2 id="my-adventures-in-supercomputing">My Adventures in Supercomputing</h2>
+
+<p>I was lucky enough to be one of the first researchers on Aurora. At the time, I was working on a large-scale machine learning research project in which I was studying how neural networks can work together to learn over distributed datasets. I used Aurora to train tens of thousands of neural networks to understand how information was learned and propagated. Compared to my previous projects, the size of my experiments increased by orders of magnitude overnight. And I wasn’t the only one: Aurora was being used to accelerate computational research on fusion energy and plasma physics, materials science, cosmology, and nanotechnology, to name a few.</p>
+
+<p>I quickly realized that as the scale of my experiments increased, so did the problems. The speed at which parallel processes were trying to run computations and save the results raised two very specific issues:</p>
+<ol>
+  <li>When you try to save ALL of your parallel experimental results across hundreds of thousands of experiments through a single node that is coordinating the experiments, it can cause massive slowdowns.</li>
+  <li>When tons of computations are being run on a node, it generates heat. And when a node gets too hot, it gets fried.</li>
+</ol>
+
+<p>I had been warned about the difficulties of parallel debugging in my undergraduate course work; I had even debugged parallel code on my laptop before. But never before had I done it at such a large scale on a brand new system.</p>
+
+<p>Luckily, some colleagues came to my aid! With a little elbow grease, I learned how to refactor my experiments to make better use of Aurora’s parallelism: this meant that any experiments that were not dependent on each other had to be runnable (<strong>and savable!</strong>) at the same time across many nodes, and even within an experiment, any procedures that were independent were designed to be able to run at the same time on a single node across multiple GPUs. These simple tweaks solved problem #1 because now I was able to save information from many different nodes rather than being bottlenecked by one.</p>
+
+<p>Problem #2 quickly resolved itself as the kinks in Aurora’s cooling system got worked out by the amazing researchers and staff who built and maintained the machine. Turns out, Aurora was one of the first large-scale public machines to use a liquid cooling system. This meant there were additional engineering challenges when designing and implementing this cooling system, since Aurora has a massive power draw, but it ended up being substantially more efficient and effective than traditional fan-based air cooling.</p>
+
+<p>Today, thanks to the amazing assistance that the Aurora staff provide scientists in adapting their experimental code, and their fast response to any hardware issues, Aurora has become an amazing resource for computational science workloads.</p>
+
 
     </div>
   </article>
