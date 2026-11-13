@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://msakarvadia.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://msakarvadia.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-11-10T22:36:30+00:00</updated><id>https://msakarvadia.github.io/feed.xml</id><title type="html">blank</title><subtitle>Mansi Sakarvadia&apos;s Computer Science Research Web Page.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://msakarvadia.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://msakarvadia.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-11-13T15:56:12+00:00</updated><id>https://msakarvadia.github.io/feed.xml</id><title type="html">blank</title><subtitle>Mansi Sakarvadia&apos;s Computer Science Research Web Page.
 </subtitle><entry><title type="html">The Early Days of Exascale Computing</title><link href="https://msakarvadia.github.io/blog/2026/exascale/" rel="alternate" type="text/html" title="The Early Days of Exascale Computing" /><published>2026-11-07T15:12:00+00:00</published><updated>2026-11-07T15:12:00+00:00</updated><id>https://msakarvadia.github.io/blog/2026/exascale</id><content type="html" xml:base="https://msakarvadia.github.io/blog/2026/exascale/"><![CDATA[<p><small><em>The prefix “exa” refers to the number one quintillion (10</em><sup>18</sup><em>). In the context of computing, an exascale computer can do one quintillion, or a billion billion, calculations per second.</em></small></p>
 
 <p>The research group I am doing my Ph.D. in both studies and uses supercomputers. The area is sometimes also referred to as supercomputing or high-performance computing. Historically, one of the main objectives of supercomputing was to enable and accelerate computational science using really fast computers. For example, simulating galaxies, forecasting weather, or even modeling the movement of molecules requires enormous amounts of calculations, which wouldn’t be possible on personal computers (at least not if we wanted the calculations to finish within our lifetimes).</p>
@@ -26,7 +26,7 @@
     </div>
 </div>
 <div class="caption">
-This is a card from the IBM Blue Gene line of supercomputers that I was given in the first summer of my Ph.D. I have long since lost the description of which specific supercomputer it was a part of, but after some <a href="https://www.okqubit.net/bgl/" target="_blank">online sleuthing</a><sup>1</sup>, I believe this came from the BlueGene/P machine at Argonne National Laboratory. This class of machine debuted in 2007 as the fastest supercomputer of its time and was the first to break the petaflop <a href="https://www.anl.gov/mcs/article/ibm-triples-performance-of-worlds-fastest-most-energyefficient-supercomputer" target="_blank">computing barrier</a><sup>2</sup>. It could do one-quadrillion (that's 15 zeros!) operations per second. This machine has been decommissioned for a while, but over its lifetime it enabled computational workflows at scales never before imagined. The machines I work on today have long surpassed the petaflop scale and have recently broken the exaflop barrier: I work on systems that can do one quintillion operations per second.
+This is a card from the IBM Blue Gene line of supercomputers that I was given in the first summer of my Ph.D. I have long since lost the description of which specific supercomputer it was a part of, but after some <a href="https://www.okqubit.net/bgl/" target="_blank">online sleuthing</a><sup>1</sup>, I believe this came from the BlueGene/P machine at Argonne National Laboratory. This class of machine debuted in 2007 as the fastest supercomputer of its time and was the first to break the petaflop <a href="https://www.anl.gov/mcs/article/ibm-triples-performance-of-worlds-fastest-most-energyefficient-supercomputer" target="_blank">computing barrier</a><sup>2</sup>. It could do one quadrillion (that's 15 zeros!) operations per second. This machine has been decommissioned for a while, but over its lifetime it enabled computational workflows at scales never before imagined. The machines I work on today have long surpassed the petaflop scale and have recently broken the exaflop barrier: I work on systems that can do one quintillion operations per second.
 </div>
 
 <h2 id="so-what-is-a-modern-supercomputer">So what is a (modern) supercomputer?</h2>
@@ -94,7 +94,7 @@ This is a card from the IBM Blue Gene line of supercomputers that I was given in
     </div>
 </div>
 <div class="caption">
-Electric power demanded by data centers is going up. [<a href="https://climate.uchicago.edu/news/what-are-data-centers-and-why-do-they-need-so-much-power/" target="_blank">What are data centers?</a><sup>13</sup>]
+Electric power demanded by data centers is going up. Figure source: <a href="https://climate.uchicago.edu/news/what-are-data-centers-and-why-do-they-need-so-much-power/" target="_blank">What are data centers?</a><sup>13</sup>
 </div>
 
 <p>I am personally trying to make strides in ensuring that the carbon footprint of my AI research is justified and that my research itself paves the way for more efficient AI model development. However, to make a sizable impact, we need to have community-level conversations about how to design more efficient supercomputers, <a href="https://climate.uchicago.edu/news/what-are-data-centers-and-why-do-they-need-so-much-power/" target="_blank">power them with long-term energy solutions</a><sup>13</sup>, and develop AI lifecycles with lower carbon footprints.</p>
@@ -106,11 +106,9 @@ Electric power demanded by data centers is going up. [<a href="https://climate.u
 
 <p>As a society, it is imperative to plan for a future in which everyone has a voice. Conversations around computing should invite public participation so that we can best prioritize computational workflows, and the underlying computational infrastructure, that advance collective societal goals.</p>
 
-<p><strong>Thanks to Francesa Vescia, Sahil Sethi, and Jay Sakarvadia who provided feedback on this blog post.</strong></p>
+<p><strong>Thanks to Francesa Vescia, Sahil Sethi, Jay Sakarvadia, and Ian Foster who provided feedback on this blog post.</strong> Generative AI was not used to draft, write, or edit this blog post. Feel free to email me if you have any thoughts about what I have written (or if u find a typo).</p>
 
 <p><em>A note: A lot of the supercomputers and corresponding scientific breakthroughs that I reference are in the USA simply because those are the facilities and discoveries I am most familiar with. However, inspiring and amazing computational science happens all over the world. To learn more about the world’s fastest (publically disclosed) machines see:</em> <a href="https://top500.org/" target="_blank">top500.org</a></p>
-
-<p>Generative AI was not used to draft, write, or edit this blog post. Feel free to email me if you have any thoughts about what I have written (or if u find a typo).</p>
 
 <h2 id="references">References</h2>
 
