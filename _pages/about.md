@@ -28,7 +28,7 @@ I also [write broadly](https://mansisak.com/blog) about the role of A.I. in adva
 
 <details>
 
-<summary>How do Humans Build A.I.?</summary>
+<summary><strong>How do Humans Build A.I.?</strong></summary>
 
 <p>My research group is conducting a study examining how humans make machine learning engineering decisions. <strong>We are looking for anyone who contributes to or makes decisions about machine learning models and their lifecycles to help us understand challenges, and opportunities in this field by filling out a 10 minute survey at this <a href="https://uchicago.co1.qualtrics.com/jfe/form/SV_3CWGrpSwl7BBBPM">link</a>.</strong></p>
 
