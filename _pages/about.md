@@ -21,9 +21,10 @@ My research sits at the intersection of machine learning, distributed systems, a
 Much of my work is focused on understanding and mitigating failure modes of A.I. in modern computational (science) workflows. 
 For example, I have developed methods to [quickly mitigate unwanted behavior in LLMs](https://arxiv.org/pdf/2410.02159), [enable scalable scientific modeling](https://arxiv.org/pdf/2510.06646), and [efficiently improve LLM-Driven Discovery](https://arxiv.org/pdf/2610.00707).
 
-<!--I also [write broadly](https://mansisak.com/blog) about the role of A.I. in advancing scientific (and societal) objectives.-->
 
 My work has been supported by a Department of Energy [Computational Science Graduate Fellowship](https://www.krellinst.org/csgf/). Prior to my Ph.D., I completed my Bachelors in Computer Science and Math at [UNC, Chapel Hill](https://cs.unc.edu/).
+
+I also [write broadly](https://mansisak.com/blog) about the role of A.I. in advancing scientific (and societal) objectives.
 
 <details>
 

@@ -6,6 +6,11 @@ description:
 nav: true
 nav_order: 4
 ---
+
+Human thoughts on the role of AI in science and society.
+
+I cross post blogs here and on my [substack](https://thinkersystems.substack.com/) so feel free to subscribe if you wish to be emailed for new entries.
+
 <div class="news">
 
   <!--
